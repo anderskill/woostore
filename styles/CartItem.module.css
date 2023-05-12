@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.imageAndTitle {
+  display: flex;
+  align-items: center;
+}
+.imageAndTitle img {
+}
+.imgContainer {
+  margin-right: 2rem;
+}

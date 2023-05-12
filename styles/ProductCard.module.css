@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  height: 100%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.salePrice {
+  text-decoration: line-through;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  justify-self: flex-start;
+}

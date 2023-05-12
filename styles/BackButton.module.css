@@ -1,0 +1,8 @@
+.back {
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  justify-self: flex-start;
+  white-space: nowrap;
+}

@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  padding-top: 4rem;
+  height: 100%;
+  margin-bottom: 4rem;
+}
+
+.imageAndTextContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  position: relative;
+  width: 60%;
+  height: 50vh;
+  margin-right: 20px;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.textContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.salePrice {
+  text-decoration: line-through;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.relatedProducts {
+}
+
+.relatedProducts -webkit-scrollbar {
+  display: none;
+}
+
+.breadcrumb {
+  display: flex;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-top: 0rem;
+    height: 100%;
+    margin-bottom: 4rem;
+  }
+  .imageAndTextContainer {
+    flex-direction: column;
+  }
+  .breadcrumb {
+    margin-top: 1rem;
+  }
+  .textContainer,
+  .imageContainer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imageAndTextContainer {
+    flex-direction: column;
+  }
+  .textContainer {
+    width: 100%;
+  }
+}

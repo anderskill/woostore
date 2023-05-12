@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.navItemsContainer {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.dropdown:not(:last-child) {
+  margin-right: 3rem;
+}
+.imageContainer {
+  position: relative;
+  width: 15vw;
+  height: 10vh;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+}
+.dropdownItem {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: black;
+  margin: 20px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownContent a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown:hover .dropdownItem {
+  border-bottom: 1px solid #333;
+}
+
+.cartContainer {
+  justify-self: flex-end;
+  position: relative;
+  margin-left: auto;
+}
+
+.cartCount {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 16px;
+  background: #11dea4;
+  color: #333;
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}

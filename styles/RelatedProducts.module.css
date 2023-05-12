@@ -1,0 +1,16 @@
+.list {
+  list-style: none;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 0;
+}
+
+.listItem {
+  display: inline-block;
+}
+.listItem:not(:last-child) {
+  margin-right: 20px;
+}

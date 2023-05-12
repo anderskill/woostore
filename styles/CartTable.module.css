@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartTable {
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+.cartTable thead {
+  text-align: left;
+  background: #f7f7f7;
+}
+.cartTable thead th {
+  padding: 2rem 4rem;
+  font-weight: 400;
+}
+.cartTable tbody td {
+  padding: 2rem 4rem;
+  font-weight: 400;
+}
+.product {
+  display: flex;
+  align-items: center;
+}
+.product span {
+  font-weight: 700;
+  margin-left: 2rem;
+}
+.totalPrice {
+  align-self: flex-end;
+  margin-right: 4rem;
+}

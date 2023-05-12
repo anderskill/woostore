@@ -1,0 +1,11 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb {
+  text-transform: capitalize;
+}
+.breadcrumb :not(:last-child) {
+  margin-right: 8px;
+}

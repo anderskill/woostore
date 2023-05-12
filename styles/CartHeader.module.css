@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #f7f7f7;
+}
+
+.secondContainer {
+  display: flex;
+}
+
+.productContainer {
+  margin-left: 4rem;
+}
+
+.secondContainer :not(:last-child) {
+  margin-right: 6rem;
+}
