@@ -26,7 +26,7 @@ export async function getStaticPaths() {
       const gender = product?.categories[0]?.slug;
 
       // Check if gender, category, and productSlug are defined and of string type
-      if (typeof gender === "string") {
+      if (typeof gender === "string" && gender !== "accessories") {
         return {
           params: {
             gender,
