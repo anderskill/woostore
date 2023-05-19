@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -39,10 +40,12 @@ export default function Home() {
             <h2>Design &rarr;</h2>
             <p>The store is based on the attached design</p>
           </a>
-          <a href="/shop" rel="noreferrer" className={styles.card}>
-            <h2>Shop &rarr;</h2>
-            <p>Check out the shop page!</p>
-          </a>
+          <Link href="/shop" rel="noreferrer" passHref>
+            <a className={styles.card}>
+              <h2>Shop &rarr;</h2>
+              <p>Check out the shop page!</p>
+            </a>
+          </Link>
         </div>
       </main>
     </div>
